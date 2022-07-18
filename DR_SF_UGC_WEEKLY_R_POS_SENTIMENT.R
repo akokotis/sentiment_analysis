@@ -16,7 +16,7 @@ jdbcDriver <- JDBC(driverClass="net.snowflake.client.jdbc.SnowflakeDriver",
                    classPath="/usr/local/app/snowflake/snowflake-jdbc-3.12.4.jar")
 
 con <- dbConnect(jdbcDriver, "jdbc:snowflake://rei.us-west-2.privatelink.snowflakecomputing.com", 
-                 dbname="DIGITAL_RETAIL_ANALYSIS",user="SVC_BI_DS_DR", password="eWWTr5wf.6XzKDLmjbBnC4Ba775.fBm37X")
+                 dbname="---",user="---", password="---")
 
 
 ########################################
@@ -940,7 +940,7 @@ jdbcDriver <- JDBC(driverClass="net.snowflake.client.jdbc.SnowflakeDriver",
                    classPath="/usr/local/app/snowflake/snowflake-jdbc-3.12.4.jar")
 
 con <- dbConnect(jdbcDriver, "jdbc:snowflake://rei.us-west-2.privatelink.snowflakecomputing.com", 
-                 dbname="DIGITAL_RETAIL_ANALYSIS",user="SVC_BI_DS_DR", password="eWWTr5wf.6XzKDLmjbBnC4Ba775.fBm37X")
+                 dbname="---",user="---", password="---")
 
 dbSendQuery(con,'DROP TABLE IF EXISTS DIGITAL_RETAIL_ANALYSIS.DWADMIN.DR_SF_UGC_PRODUCT_REVIEW_SENTIMENT_SCORE_TEMP')
 dbWriteTable(
